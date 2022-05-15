@@ -690,6 +690,27 @@ span
         /* background-image: url(./Component\ 30\ –\ 1.svg) 250px 250px; */
         
     }
+    #mrng
+    {
+        width: 440px;
+        height: 306px;
+    }
+    #afternoon
+    {
+        width: 440px;
+        height: 306px;
+    }
+    #evening
+    {
+        width: 440px;
+        height: 306px;  
+    }
+    #gn
+    {
+        width: 440px;
+        height: 306px;
+    }
+    
     
     
 }
