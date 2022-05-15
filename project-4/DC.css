@@ -317,6 +317,20 @@ select
     opacity: 1;
     z-index: 3;
 }
+#times div
+{
+    /* position: absolute;
+    top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: #430689 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .t2
 {
     position: absolute;
@@ -420,9 +434,31 @@ select
     position: absolute;
     top: 345px;
     left: 707px;
+    width: 600px;
+    height: 536px;
     border-radius: 9px;
-    background: transparent url('./01437d4a-75ea-47f7-b8ab-e06ac4338bc6.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('./01437d4a-75ea-47f7-b8ab-e06ac4338bc6.png') 0% 0% no-repeat padding-box; */
     opacity: 1;   
+}
+#mrng
+{
+    width: 540px;
+    height: 386px;
+}
+#afternoon
+{
+    width: 540px;
+    height: 386px;
+}
+#evening
+{
+    width: 540px;
+    height: 386px;  
+}
+#gn
+{
+    width: 540px;
+    height: 386px;
 }
 .ss{
     width: 536px;
