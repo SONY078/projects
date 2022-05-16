@@ -83,7 +83,7 @@
     // document.getElementById("night").innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
     // document.getElementById("nightmes").innerHTML = "GOOD NIGHT !!";
 
-    if( h <= 12 && ap == "AM")
+    if( h < 12 && ap == "AM")
     {
 
         document.getElementById("mrng").style.backgroundImage = "url('Component 30 – 1.svg')" ;
@@ -96,7 +96,7 @@
         document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
         document.getElementById("noonmes").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
     }
-    else if( h <= 8 && ap == "PM")
+    else if( h < 8 && ap == "PM")
     {
         document.getElementById("evening").style.backgroundImage = "url('lunch_image.jpg')" ;
         document.getElementById("eve").innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
