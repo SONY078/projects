@@ -92,9 +92,9 @@
     }
     else if( h <= 4 && ap =="PM")
     {
-        // document.getElementById("afternoon").style.backgroundImage = "url('Component 31 – 1 (1).svg')" ;
-        // document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
-        // document.getElementById("noonmes").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
+        document.getElementById("afternoon").style.backgroundImage = "url('Component 31 – 1 (1).svg')" ;
+        document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
+        document.getElementById("noonmes").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
     }
     else if( h <= 8 && ap == "PM")
     {
