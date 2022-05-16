@@ -105,11 +105,76 @@
     else if( h >= 8 && ap =="PM")
     {
         document.getElementById("gn").style.backgroundImage = "url('Component 32 – 1.svg')" ;
-        // document.getElementById("gn").style.backgroundImage.backgroundSize = "400px" ;
+        document.getElementById("gn").style.backgroundImage.backgroundSize = "400px" ;
         document.getElementById("night").innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
         document.getElementById("nightmes").innerHTML = "GOOD NIGHT !!";
     }
+    displayValue();
+    //--------------------------------------------------------------------------
+    function displayValue()
+    {
+        // let waketime = document.getElementById("dmorning").value
+        // let waketime = document.querySelector('#dmorning');
+        selectElement = document.querySelector('#dmorning');
+        wake = selectElement.options[selectElement.selectedIndex].value;
+        document.querySelector('#wake').textContent = wake ;
 
+
+        selectElement = document.querySelector('#dnoon');
+        wake = selectElement.options[selectElement.selectedIndex].value;
+        document.querySelector('#lunch').textContent = wake ;
+
+        selectElement = document.querySelector('#deve');
+        wake = selectElement.options[selectElement.selectedIndex].value;
+        document.querySelector('#nap').textContent = wake ;
+
+
+        selectElement = document.querySelector('#dnight');
+        wake = selectElement.options[selectElement.selectedIndex].value;
+        document.querySelector('#night2').textContent = wake ;
+        
+    //     let lunchtime = document.getElementById("dnoon").value
+    //     let naptime = document.getElementById("dreve").value
+    //     let nighttime = document.getElementById("dnight").value
+    
+    //     // var wakeValue = document.getElementById("dmorning");
+    //     var wakeValue = document.querySelector('#dmorning');
+    //     var value1 = wakeValue.options[wakeValue.selectedIndex].text;
+    
+    //     var lunchValue = document.getElementById("dnoon");
+    //     var value2 = lunchValue.options[lunchValue.selectedIndex].text;
+    
+    //     var napValue = document.getElementById("deve");
+    //     var value3 = napValue.options[napValue.selectedIndex].text;
+    
+    //     var nightValue = document.getElementById("dnight");
+    //     var value4 = nightValue.options[nightValue.selectedIndex].text;
+        
+    //     if (waketime == "none") {
+    //       document.getElementById("wake").innerHTML = "";
+    //     } else {
+    //       document.getElementById("wake").innerHTML =
+    //         "Wake up time : " + value1;
+    //     }
+    
+    //     if (lunchtime == "none") {
+    //       document.getElementById("lunch").innerHTML = "";
+    //     } else {
+    //       document.getElementById("lunch").innerHTML =
+    //         "Lunch time : " + value2;
+    //     }
+    
+    //     if (naptime == "none") {
+    //       document.getElementById("nap").innerHTML = "";
+    //     } else {
+    //       document.getElementById("nap").innerHTML = "Nap time : " + value3;
+    //     }
+    //     if (nighttime == "none") {
+    //         document.getElementById("night").innerHTML = "";
+    //       } else {
+    //         document.getElementById("night").innerHTML = "night time : " + value4;
+    //       }
+      }
     //--------------------------------------------------------------------------
         // value = 0 ;
         // if (h>12 && ap == "AM")
@@ -154,7 +219,7 @@
         //     document.getElementById("mes").innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
         // }
 
-
+    
 
     //--------------------------------------------------------------------------
 
