@@ -90,7 +90,7 @@
         document.getElementById("morning").innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
         document.getElementById("morningmes").innerHTML = "GOOD MORNING!! WAKE UP !!";   
     }
-    else if( h <= 4 && ap =="PM")
+    else if( h < 4 && ap =="PM")
     {
         document.getElementById("afternoon").style.backgroundImage = "url('Component 31 – 1 (1).svg')" ;
         document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
