@@ -64,7 +64,7 @@
 
 
     // document.getElementById("mrng").style.backgroundImage = "url('Component 30 – 1.svg')" ;
-      // document.getElementById("morning").innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
+    //   document.getElementById("morning").innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
     //   document.getElementById("morningmes").innerHTML = "GOOD MORNING!! WAKE UP !!";
 
 
@@ -92,9 +92,9 @@
     }
     else if( h <= 4 && ap =="PM")
     {
-        document.getElementById("afternoon").style.backgroundImage = "url('Component 31 – 1 (1).svg')" ;
-        document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
-        document.getElementById("noonmes").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
+        // document.getElementById("afternoon").style.backgroundImage = "url('Component 31 – 1 (1).svg')" ;
+        // document.getElementById("noon").innerHTML = "LET'S HAVE SOME LUNCH !!";
+        // document.getElementById("noonmes").innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
     }
     else if( h <= 8 && ap == "PM")
     {
@@ -105,7 +105,7 @@
     else if( h >= 8 && ap =="PM")
     {
         document.getElementById("gn").style.backgroundImage = "url('Component 32 – 1.svg')" ;
-        document.getElementById("gn").style.backgroundImage.backgroundSize = "400px" ;
+        // document.getElementById("gn").style.backgroundImage.backgroundSize = "400px" ;
         document.getElementById("night").innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
         document.getElementById("nightmes").innerHTML = "GOOD NIGHT !!";
     }

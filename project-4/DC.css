@@ -710,6 +710,18 @@ span
         width: 440px;
         height: 306px;
     }
-    
+    #noonmes
+    {
+        font-size: 20px;
+    }
+    #eve
+    {
+        font-size: 20px;
+    }
+    #night
+    {
+        font-size: 26px;
+        
+    }
     
 }
