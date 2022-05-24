@@ -48,8 +48,8 @@
 
     //--------------------------------------------------------------------------
     const d = new Date();
-
-    let h = d.getHours() > 12 ? d.getHours() - 12 : d.getHours();
+    let hours = d.getHours() - 12 ;
+    let h = d.getHours() > 12 ? "0" + hours : d.getHours();
     document.getElementById("hours").innerHTML = h + "<br>Hours" ; 
     h = h < 10 ? "0" + h : h ;
     
