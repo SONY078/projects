@@ -51,6 +51,7 @@
 
     let h = d.getHours() > 12 ? d.getHours() - 12 : d.getHours();
     document.getElementById("hours").innerHTML = h + "<br>Hours" ; 
+    h = h < 10 ? "0" + h : h ;
     
 
     let ap = d.getHours() >= 12 ? "PM" : "AM";
