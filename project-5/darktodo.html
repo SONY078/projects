@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="darkcs.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/cb1093f148.js" crossorigin="anonymous"></script>
+
+    <title>Todo List</title>
+</head>
+<body>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Select theme</button>
+        <div class="dropdown-content">
+          <a href="./todoList.html">light</a>
+          <a href="">Dark</a>
+          
+        </div>
+      </div>
+        <div class="TasksList">
+            <b>Tasks</b>&nbsp;List
+        </div>
+
+        <div class="addList">
+            <a href="#" id="alist"><i class="fa-solid fa-circle-plus" onclick="addpopup()"></i></a>
+            <label class="l" style="color: white;">Add List</label>
+        </div>
+        
+        <div class="items">
+           <span id="empty" style="font-size: 18px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" > No Items in the todo list </span>
+        </div>  
+    </div>
+    <div id="cards">
+        <div id="card"> 
+        </div>
+    </div>
+<div id="container2">
+    <div id="popup">
+        <div id="addl">  
+            <div id="add">
+                <h4>Add New List</h4>
+                <input type="text" name="addlist" id="cardname"><br>
+                <button onclick="addCard()" id="submit">  ADD  </button>
+                <input type="button" id="close" value="Close" onclick="closepopup()">
+            </div>
+        </div>
+    </div>
+    <div id="popup2">
+        <div id="addl">  
+            <div id="add">
+                <h4>Add New Data</h4>
+                <input type="text" name="addinfo" id="cardInfo"><br>
+               <!-- <input type="submit" value="ADD" id="submit">  -->
+                <button onclick="addData()" id="submit2">  ADD  </button>
+                <input type="button" id="close2" value="Close" onclick="closepopup2()">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+
+
+
+    <script src="./darkjs.js"></script>
+</body>
+</html>
