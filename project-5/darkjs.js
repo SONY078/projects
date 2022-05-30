@@ -76,18 +76,26 @@ console.log("wth");
 function addpopup()
 {
     document.querySelector("#popup").style.display = "block";
+    document.querySelector(".container").style.filter = "blur(5px)";
+    document.querySelector("#card").style.filter = "blur(5px)";
 }
 function closepopup()
 {
     document.querySelector("#popup").style.display = "none";
+    document.querySelector(".container").style.filter = "none";
+    document.querySelector("#card").style.filter = "none";
 }
 function addpopup2()
 {
     document.querySelector("#popup2").style.display = "block";
+    document.querySelector(".container").style.filter = "blur(5px)";
+    document.querySelector("#card").style.filter = "blur(5px)";
 }
 function closepopup2()
 {
     document.querySelector("#popup2").style.display = "none";
+    document.querySelector(".container").style.filter = "none";
+    document.querySelector("#card").style.filter = "none";
 }
 // function addpopup2()
 // {
