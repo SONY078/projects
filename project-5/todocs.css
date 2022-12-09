@@ -306,3 +306,33 @@ button
     padding: 0;
     margin: 0;
   }
+.show-data
+  {
+    position: relative;
+  }
+  .show-data::before
+  {
+    content: attr(data-show);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    height: max-content;
+    font-size: 16px;
+    padding: 5px 5px;
+    background-color: black;
+    color: #439A97;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+
+  }
+  .show-data:hover::before
+  {
+    opacity: 1;
+    visibility: visible;
+  }
+  
