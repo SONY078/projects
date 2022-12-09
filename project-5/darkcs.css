@@ -320,7 +320,7 @@ button
     height: max-content;
     font-size: 16px;
     padding: 5px 5px;
-    background-color: black;
+    background-color: white;
     color: #439A97;
     text-align: center;
     transition: opacity 1s ease-in-out;
